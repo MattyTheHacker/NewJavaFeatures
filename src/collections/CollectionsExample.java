@@ -14,11 +14,11 @@ public class CollectionsExample {
 
         List<String> namesList = new ArrayList<>();
         namesList.add("Matty");
-        namesList.add("Leaf");
+        namesList.add("Martin");
 
-        List<String> namesList2 = Arrays.asList("Matty", "Leaf");
+        List<String> namesList2 = Arrays.asList("Matty", "Martin");
 
-        List<String> names = List.of("Matty", "Leaf");
+        List<String> names = List.of("Matty", "Martin");
         Set<String> newSet = Set.of("Jess", "Emily");
         Map<String, String> countries = Map.of("Poland", "Warsaw", "Germany", "Berlin");
         Map<String, String> countries2 = Map.ofEntries(Map.entry("England", "London"), Map.entry("France", "Paris"));
